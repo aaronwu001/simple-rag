@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rag"
+version = "0.1.0"
+description = ""
+authors = ["Aaron Wu"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.2.7"
+pypdf = "^4.2.0"
+langchain-community = "^0.2.7"
+pytest = "^8.2.2"
+chromadb = "^0.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

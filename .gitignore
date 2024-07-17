@@ -1,0 +1,8 @@
+__pycache__
+.pytest_cache
+.venv
+chroma_db
+small-pdf
+test_query.py
+test-chroma-langchain.py
+test-chroma.py
