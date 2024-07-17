@@ -6,7 +6,7 @@ This is not a chatbot.
 The project uses LLama3 as the local LLM powering the project. 
 It can be changed to any other LLM. 
 
-How-to Guide:
+Set-up Guide:
 1. Install Poetry. run 'poetry shell', 'poetry lock', then 'poetry udpate' in the root directory to set up the environment and dependencies.
 2. Install Ollama. run 'Ollama pull llama3' to install the Llama3 model (modify the code for different models)
 3. Run 'Ollama serve' to run the model as a server at localhost:11434.
