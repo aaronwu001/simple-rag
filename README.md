@@ -2,8 +2,6 @@
 
 **Simple-RAG** is a lightweight implementation of a Retrieval-Augmented Generation (RAG) system designed to run entirely locally. By combining document retrieval and language model generation, it allows for accurate and context-aware responses to user queries using a locally hosted LLM. The project uses LangChain, ChromaDB, and the Llama3 model for efficient retrieval and generation.
 
----
-
 ## 🚀 Project Overview
 
 **Simple-RAG** enables:
@@ -11,8 +9,6 @@
 2. **Augmented Generation**: Uses retrieved context to generate precise answers with a local language model.
 3. **Local-Only Setup**: No external API calls—everything runs on your local machine for privacy and security.
 4. The project uses LLama3 as the local LLM powering the project. Feel free to change it to other LLMs.
-
----
 
 ## 🛠 Features
 
@@ -23,8 +19,6 @@
 4. **Vector Database Management**: Manages document embeddings using ChromaDB for fast similarity search.
 5. **Local Language Model Integration**: Uses Llama3 as the local LLM for query response generation.
 6. **Modular Design**: Easily customizable to work with other LLMs or document formats.
-
----
 
 ## 🛠 Tech Stack
 
@@ -41,8 +35,6 @@
   - LangChain for chaining document retrieval and generation tasks.
   - Python 3.12
   - Poetry for dependency management.
-
----
 
 ## 🌟 What the Project Does
 
@@ -61,8 +53,6 @@
    - Passes the context and query to the local Llama3 model for response generation.
    - Outputs the response and the sources used.
 
----
-
 ## 📚 Lessons Learned
 
 ### Challenges:
@@ -72,8 +62,6 @@
 ### Lessons:
 - Effective chunking and overlap significantly improve retrieval accuracy.
 - Local-only setups ensure privacy but require resource management.
-
----
 
 ## 🔮 Future Improvements
 
@@ -88,19 +76,13 @@
 5. **Real-Time Updates**:
    - Enable dynamic updates to the database as new files are added.
 
----
-
 ## 🛠 Acknowledgments
 
 This project is inspired by Pixegami's [YouTube tutorial](https://www.youtube.com/watch?v=2TJxpyO3ei4&t=396s) and serves as a personal implementation of a Local RAG pipeline with LangChain.
 
----
-
 ## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🌐 Additional Resources
 
